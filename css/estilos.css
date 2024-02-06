@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Dancing+Script:wght@700&family=Delicious+Handrawn&family=Farsan&family=Geologica:wght@300&family=Josefin+Sans:wght@100;500&family=Lato&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=Oswald:wght@300;400;700&family=Poppins:ital,wght@1,300&family=Raleway:ital,wght@0,100;1,100&family=Roboto:ital,wght@0,100;0,900;1,300&family=Sigmar&family=Smokum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgba(255, 166, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: 0;
+}
+.logo span{
+    color: #000;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main{
+    height: calc(75vh - 80px);
+    background-color: #333;
+    background-image: url(../images/llaves-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    display:grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 5px #fff;
+}
+
+h1{
+    color: orange;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #000;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.call a:hover{
+    background-color: #333;
+}
+h2{
+    background-color:  rgba(255, 166, 0, 0.388);
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+section{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-flow: column-reverse;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+label {
+    font-size:x-large;
+    font-display: 200px;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+    
+}
+
+.div-resto {
+    background-color: rgba(253, 224, 171, 0.741);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+    
+}
+
+select, input {
+    min-width: 100%;
+    width: 70%;
+    height: 200%;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.importe {
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.guardar {
+    border: 1px transparent;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background-color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.guardar:active {
+    background-color: black !important;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+button:hover {
+    color: whitesmoke !important;
+    background-color: blueviolet !important;
+}
+
+button:active {
+    background-color: black !important;
+}
