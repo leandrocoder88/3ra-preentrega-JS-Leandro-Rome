@@ -32,7 +32,7 @@ function retornarFactorUbicacion(tipoUbica) {
 }
 
 function cotizarVelada() {
-    if (selectMenu.value !== 'Seleccionar...' && selectUbicacion.value !== 'Seleccionar...' && (inputPersonas.value >= 1 || inputPersonas.value <= 20)) {
+    if (selectMenu.value !== 'Seleccionar...' && selectUbicacion.value !== 'Seleccionar...' && (inputPersonas.value >= 1 && inputPersonas.value <= 20)) {
         let personas = inputPersonas.value
         let factorMenu = retornarFactorMenu(selectMenu.value)
         let factorUbicacion = retornarFactorUbicacion(selectUbicacion.value)

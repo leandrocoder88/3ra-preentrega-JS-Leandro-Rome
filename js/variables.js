@@ -1,7 +1,7 @@
-const datosMenu = [{tipo: 'Comida Vegana + consumicion', factor: 1.30},
-                        {tipo: 'Pastas + consumicion', factor: 1.05},
-                        {tipo: 'Carnes + consumicion', factor: 1.25},
-                        {tipo: 'Picadas + consumicion', factor: 1.20}]
+const datosMenu = [{tipo: 'Comida Vegana + consumición', factor: 1.30},
+                        {tipo: 'Pastas + consumición', factor: 1.05},
+                        {tipo: 'Carnes + consumición', factor: 1.25},
+                        {tipo: 'Picada + consumición', factor: 1.20}]
 
 
 
